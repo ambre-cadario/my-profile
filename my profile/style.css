@@ -1,0 +1,127 @@
+/* colors and font */
+body{
+	background: whitesmoke;
+	color: gray;
+	font-family: didot;
+	font-size: 16px;
+   font-weight: lighter;
+}
+h1, h2 {
+	font-family: times;
+	justify-items: space-evenly;
+}
+h1 {
+	color: lightpink;
+	font-size: 40px;
+   font-family: didot;
+}
+h2{
+	color: #090809;
+	font-size: 22px;
+	font-weight: lighter;
+   font-style: inherit;
+}
+a{
+	text-decoration: none;
+	color: pink;
+
+   
+}
+a:hover {
+	color: deeppink;
+}
+
+h3 {
+   text-align: center;
+   font-family: didot;
+   color: gray;
+   font-weight: bold;
+   font-size: 20px;
+
+}
+
+
+
+div{
+   background: DA627D;
+   padding: 20px;
+   border: 3px solid black;
+   margin: 10px;
+   text-align: center;
+}
+
+/* custom design with class (99% of your design*/
+.container {
+	width: 600px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+   width: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+	width: 750px;
+}
+
+@media (max-width: 1200px) {
+	width: 950px; 
+}
+
+@media (min-width:  1200px){
+	width: 1200px;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10 px 30 px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align:  center;
+}
+
+
+.img-circle{
+	border-radius: 90px;
+	border-style: solid ;
+	border-color: black;
+	border-image: unset;
+
+      }
+
+.btn-blue {
+	background-color: aliceblue;
+	color: black;
+	padding: 10px 20px;
+   border-radius: 15px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li {
+	
+	padding: 10px;
+}
+
+.list-inline i:hover {
+
+   color: black;
+}
+
+/* Design adjustement using id (1% design remaining) */
+ #introduction p {
+   margin-bottom: 40px;
+ }
+
+
+
+
+
